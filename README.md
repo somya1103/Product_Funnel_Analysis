@@ -23,9 +23,8 @@ This project investigates:
 
 ## Dashboard
 
-[Page 1(insights and recommendations) .docx](https://github.com/user-attachments/files/27099560/Page.1.insights.and.recommendations.docx)
-https://github.com/somya1103/Product_Funnel_Analysis/blob/b8f1f947a6153a9710a9176a37ccdc1fa86bedd9/dashboard/Page%202%3A%20Funnel%20%26%20Pricing/Funnel%20and%20pricing(page%202).png
-https://github.com/somya1103/Product_Funnel_Analysis/blob/b8f1f947a6153a9710a9176a37ccdc1fa86bedd9/dashboard/Page%203%3A%20Retention%20%26%20RFM/Retention(Page%203).png
+![Page 1(insights and recommendations) .docx](https://github.com/user-attachments/files/27099560/Page.1.insights.and.recommendations.docx)
+
 
 🔗 [Live Interactive Dashboard][(#) ← replace with your Power BI link](https://github.com/somya1103/Product_Funnel_Analysis/blob/b8f1f947a6153a9710a9176a37ccdc1fa86bedd9/dashboard/product_funnel.pbix)
 
