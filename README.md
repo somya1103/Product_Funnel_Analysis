@@ -22,9 +22,12 @@ This project investigates:
 ---
 
 ## Dashboard
-
+Page 1: Executive Summary
 !<img width="1467" height="797" alt="Image" src="https://github.com/user-attachments/assets/f75d9506-45e4-4cfc-a09f-0f7a2cbb1e1d" />
-
+Page 2: Funnel & Pricing
+<img width="1482" height="811" alt="Image" src="https://github.com/user-attachments/assets/8f452fe1-ebe6-4843-b742-43002b42242c" />
+Page 3: Retention & RFM
+<img width="1490" height="817" alt="Image" src="https://github.com/user-attachments/assets/0d7a1a60-a19b-46d4-b786-3c40be10082a" />
 
 🔗 [Live Interactive Dashboard][(#) ← replace with your Power BI link](https://github.com/somya1103/Product_Funnel_Analysis/blob/b8f1f947a6153a9710a9176a37ccdc1fa86bedd9/dashboard/product_funnel.pbix)
 
