@@ -93,6 +93,7 @@ recovered revenue from a single campaign.**
 
 ## Project Structure
 
+```
 ├── sql_queries/
 │   ├── 01_exploration.sql
 │   ├── 02_funnel_analysis.sql
@@ -116,8 +117,8 @@ recovered revenue from a single campaign.**
 │       ├── page2_funnel_pricing.png
 │       └── page3_retention_rfm.png
 └── data/
-└── data_dictionary.md
-
+    └── data_dictionary.md
+```
 
 ----
 
