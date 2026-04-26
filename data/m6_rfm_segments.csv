@@ -1,0 +1,6 @@
+segment,user_count,pct_of_users,avg_recency_days,avg_purchases,avg_revenue_per_user,total_segment_revenue
+Champions,268,5.6,0,5.2,1793.05,480536.70
+At-risk,1034,21.6,31,2.4,723.20,747793.00
+"Loyal customers",1568,32.8,10,2.2,662.10,1038178.84
+"New customers",1035,21.6,0,2.0,582.83,603224.22
+Lost,879,18.4,31,2.0,552.58,485718.96

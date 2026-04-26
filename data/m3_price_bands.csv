@@ -1,0 +1,4 @@
+price_band,min_price,max_price,views,carts,purchases,view_to_purchase_pct,view_to_cart_pct,cart_to_purchase_pct
+Low,0.00,15.00,23766,56,376,1.58,0.24,671.43
+Medium,15.01,65.00,125696,1070,2108,1.68,0.85,197.01
+High,65.01,2574.07,430466,7772,8690,2.02,1.81,111.81

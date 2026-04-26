@@ -1,0 +1,4 @@
+session_outcome,sessions,pct_of_sessions,avg_duration_mins,avg_products_touched,avg_events_in_session
+bounce_at_view,101061,93.18,3.7,2.2,5.4
+converted,5129,4.73,5.8,2,7.8
+abandoned_cart,2268,2.09,6.4,2,7.5

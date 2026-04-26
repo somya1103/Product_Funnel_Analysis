@@ -1,0 +1,4 @@
+event_type,event_count,unique_users,unique_sessions,pct_of_total
+view,579928,87258,107126,96.65
+purchase,11174,4784,5129,1.86
+cart,8898,3127,3374,1.48
