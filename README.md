@@ -90,3 +90,74 @@ recovered revenue from a single campaign.**
 ---
 
 ## Project Structure
+
+├── sql_queries/
+│   ├── 01_exploration.sql
+│   ├── 02_funnel_analysis.sql
+│   ├── 03_pricing_analysis.sql
+│   ├── 04_category_analysis.sql
+│   ├── 05_cohort_retention.sql
+│   └── 06_rfm_segmentation.sql
+├── python/
+│   └── ecommerce_analytics.py
+├── images/
+│   ├── 01_funnel_waterfall.png
+│   ├── 02_cohort_retention_heatmap.png
+│   ├── 03_category_quadrant.png
+│   ├── 04_rfm_segments.png
+│   ├── 05_hourly_conversion.png
+│   ├── 06_price_elasticity.png
+│   └── 07_cart_abandonment.png
+├── dashboard/
+│   └── screenshots/
+│       ├── page1_executive_summary.png
+│       ├── page2_funnel_pricing.png
+│       └── page3_retention_rfm.png
+└── data/
+└── data_dictionary.md
+
+
+---
+
+## Technical Approach
+
+### SQL (MySQL)
+- Session-level funnel using CTEs and CASE WHEN
+- Cohort retention with TIMESTAMPDIFF and DATE_FORMAT
+- RFM segmentation using NTILE window functions
+- Price elasticity via NTILE price decile bucketing
+- Category opportunity sizing with revenue upside calculation
+- Window functions: ROW_NUMBER, LAG, PERCENT_RANK
+
+### Python
+- pandas for data manipulation and sampling
+- matplotlib + seaborn for 7 analytical charts
+- Cohort heatmap, funnel waterfall, category quadrant scatter,
+  RFM bubble chart, hourly conversion dual-axis, 
+  price elasticity curve, cart abandonment chart
+
+### Power BI
+- 3-page interactive dashboard
+- Live DAX measures responding to category, month, price slicers
+- Cohort retention matrix with conditional colour formatting
+- Cross-filtering across all visuals from events table
+
+---
+
+## Data Limitations
+
+- Hourly analysis covers UTC 00:00–07:00 only due to 
+  sampling distribution. Peak at 06:00 UTC = 11:30 PM IST
+- Cohort analysis limited to Month-0 and Month-1 only — 
+  dataset ends November 2019
+- cart_to_purchase_pct excluded — sampling artifact caused 
+  purchase events to outnumber cart events
+- 300K sample from 42M+ rows — findings are directionally 
+  valid, percentages may shift ±1–2% on full dataset
+- RFM scores based on 2-month window vs recommended 12 months
+
+---
+
+## Author
+
+**Somya** · [LinkedIn](#) · [Dashboard](#)
